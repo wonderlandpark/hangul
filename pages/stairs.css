@@ -1,0 +1,12 @@
+.stair {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.stair:nth-child(odd) {
+  transform: skew(60deg, -30deg) scaleY(.66667);
+}
+
+.stair:nth-child(even) {
+  transform: skew(0deg, -30deg) scaleY(1.33333);
+}
